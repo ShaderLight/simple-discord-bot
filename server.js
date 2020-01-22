@@ -30,4 +30,4 @@ client.on('message', message => {
 client.on('ready', () => console.log("Launched!"));
 client.on('ready', () => client.user.setPresence({ game: {name:'!helperino'}, status:'idle'}));
 //TOKEN
-client.login("NTQ5MzMyMDg2NDMxOTQwNjU5.D1XHNw.wkt_Ryb3z8JqDbbVS0ReUkb96lU");
+client.login("your_token_here");
